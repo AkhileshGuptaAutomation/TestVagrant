@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 106.108 s <<< FAILURE! - in TestSuite
+verifyAPIAndWebTeamperatureValue(TestCases.WeatherDetailTestCases)  Time elapsed: 68.875 s  <<< FAILURE!
+java.lang.AssertionError: Failed : Diff in Web Temperatur Value and API Temperature Value is greater than 2 expected [true] but found [false]
+	at TestCases.WeatherDetailTestCases.verifyAPIAndWebTeamperatureValue(WeatherDetailTestCases.java:33)
+
